@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 # conexão local - MySQL
-engine = create_engine("mysql+mysqldb://root:@:3306/maternidade") 
+engine = create_engine(CONEXAO_DB) 
 
 # conexão supabase - PostgreSQL
 #engine = create_engine("postgresql://postgres:password@db.project.supabase.co:5432/postgres")
