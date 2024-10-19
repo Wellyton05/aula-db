@@ -3,5 +3,6 @@ uvicorn[standard]
 bcrypt
 gunicorn
 sqlalchemy
-mysqlclient # conexão local
+psycopg2-binary
+#mysqlclient # conexão local
 #psycopg2-binary # conexão supabase
