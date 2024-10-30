@@ -1,0 +1,1 @@
+- Exercício para configurar o banco de dados e fazer o deploy da aplicação pelo Render
